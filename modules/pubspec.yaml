@@ -1,5 +1,6 @@
-name: modules_lint
+name: modules
 description: A module lint
+repository: https://github.com/mcmah309/modules
 version: 0.0.1
 
 environment:
@@ -9,7 +10,7 @@ environment:
 dependencies:
   analyzer: ">=5.12.0 <7.0.0"
   analyzer_plugin: ^0.11.2
-  custom_lint_builder:
+  custom_lint_builder: ^0.6.4
 
 dev_dependencies:
   custom_lint:

@@ -1,4 +1,4 @@
-name: modules_lint_test
+name: modules_test
 publish_to: none
 
 environment:
@@ -9,5 +9,5 @@ dependencies:
 
 dev_dependencies:
   custom_lint:
-  modules_lint:
-    path: ../modules_lint
+  modules:
+    path: ../modules
