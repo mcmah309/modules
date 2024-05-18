@@ -1,8 +1,8 @@
 import 'dart:math';
 
-// expect_lint: prefer_named_local_libs
+// expect_lint: use_modules
 import 'non_library_1.dart';
-// expect_lint: prefer_named_local_libs
+// expect_lint: use_modules
 import 'package:modules_test/non_library_2.dart';
 
 import 'library_x.dart';

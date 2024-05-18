@@ -17,7 +17,7 @@ class OnlyImportlibrariesLintRule extends DartLintRule {
   OnlyImportlibrariesLintRule() : super(code: _code);
 
   static const _code = LintCode(
-    name: 'prefer_named_local_libs',
+    name: 'use_modules',
     problemMessage:
         'Only named libraries from the local project should be imported. Export this path from a named library and import that library, or add the `library <name>;` directive to the file at this path.',
   );
