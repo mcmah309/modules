@@ -1,0 +1,15 @@
+name: modules_lint
+description: A module lint
+version: 0.0.1
+
+environment:
+  sdk: ^3.3.0
+
+# Add regular dependencies here.
+dependencies:
+  analyzer: ">=5.12.0 <7.0.0"
+  analyzer_plugin: ^0.11.2
+  custom_lint_builder:
+
+dev_dependencies:
+  custom_lint:

@@ -1,0 +1,13 @@
+name: modules_lint_test
+publish_to: none
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  riverpod: ^2.0.0
+
+dev_dependencies:
+  custom_lint:
+  modules_lint:
+    path: ../modules_lint
