@@ -1,6 +1,6 @@
 name: modules
 description: Adds a module system to Dart resulting in a cleaner project structure.
-repository: https://github.com/mcmah309/modules/modules
+repository: https://github.com/mcmah309/modules/tree/master/modules
 version: 0.1.0
 
 environment:
