@@ -5,7 +5,7 @@ environment:
   sdk: ^3.3.0
 
 dependencies:
-  riverpod: ^2.0.0
+  rust_core:
 
 dev_dependencies:
   custom_lint:

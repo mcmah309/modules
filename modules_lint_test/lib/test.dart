@@ -1,22 +1,20 @@
-// import 'mock.dart';
+import 'dart:math';
 
-// void test(){
-//   calculate();
-// }
+import 'library_x.dart';
+import 'package:modules_lint_test/library_y.dart';
+// expect_lint: prefer_named_local_libs
+import 'non_library_1.dart';
+// expect_lint: prefer_named_local_libs
+import 'package:modules_lint_test/non_library_2.dart';
+import 'package:rust_core/prelude.dart';
 
-import 'package:riverpod/riverpod.dart';
-import 'mock.dart';
+//import 'package:';
 
 void main() {
-  print('hello world');
+  calculate();
+  calculate2();
+  calculate3();
+  calculate4();
+  var _ = max(1,2);
+  Ok(1);
 }
-
-class Main {}
-
-
-ProviderBase<int> provider = Provider((ref) => 0);
-
-// expect_lint: riverpod_final_provider
-Provider<int> provider2 = Provider((ref) => 0);
-
-Object? foo = 42;
