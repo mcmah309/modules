@@ -1,7 +1,7 @@
 name: modules
-description: A module lint
+description: Adds a module system to Dart resulting in a cleaner project structure.
 repository: https://github.com/mcmah309/modules
-version: 0.0.1
+version: 0.0.2
 
 environment:
   sdk: ^3.3.0
